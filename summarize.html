@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Text Summary</title>
+</head>
+
+<body>
+
+    <!---------------- Header Design -------------------->
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/summary-logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Summarize</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!---------------- Summarize section -------------------->
+
+    <div class="summarize-now-section">
+        <div class="container">
+            <div class="summarize-now-parent">
+                <div class="summarize-now-header">
+                    <h4>TEXT SUMMARIZER</h4>
+                </div>
+                <div class="summarize-now-flex">
+                    <div class="summarize-now-item summarize-now-item-btn-handle">
+                        <textarea name="" id="first-text-area" cols="30" rows="10"></textarea>
+                        <div class="summarize-now-two-btn-middle">
+                            <button type="button" class="bb-sample-text"><i class="fa-regular fa-file-lines"></i>
+                                <span>Sample Text</span></button>
+                            <button type="button" class="bb-paste-text-btn"><i class="fa-regular fa-paste"></i>
+                                <span>Paste Text</span></button>
+                        </div>
+                    </div>
+                    <div class="summarize-now-item">
+                        <textarea name="" id="second-text-area" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="summarize-now-icon-footer">
+                    <div class="summarize-now-icon-left">
+                        <ul>
+                            <li>
+                                <label for="file-upload"><i class="fa-solid fa-upload"></i></label>
+                                <input type="file" class="d-none" id="file-upload">
+                            </li>
+                            <li><i class="fa-solid fa-microphone"></i></li>
+                        </ul>
+                    </div>
+                    <div class="summarize-now-button-middle">
+                        <button type="button" class="bb_summarize_now_btn">Summarize Now</button>
+                    </div>
+                    <div class="summarize-now-icon-right">
+                        <ul>
+                            <li class="downloadTextBtn"><i class="fa-solid fa-download"></i></li>
+                            <li class="copyTextBtn"><i class="fa-solid fa-copy"></i></li>
+                            <li class="deleteTextBtn"><i class="fa-solid fa-trash-can"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- How To Summarize A Text -------------------->
+
+    <div class="how-to-summarize-text-parent">
+        <div class="container">
+
+            <div class="how-to-summarize-text-child">
+                <h2 class="section-sub-title">Text Summarizer</h2>
+                <p>This Text summarizer shortens the text while preserving all the main points that the text contains.
+                    Our AI-based paragraph summarizer ensures accuracy and maintains the original context while
+                    summarizing the text. You can generate a summary of every type of content, whether an essay or a
+                    blog post. This free text summarizing tool shows the word count of the content entered in the input
+                    box. You can check the word count before and after the summarization.</p>
+                <h2 class="section-sub-title">How To Summarize A Text?</h2>
+                <ul class="how-to-summarize-text-flex">
+                    <li>
+                        <div class="how-to-summarize-text-icon"><i class="fa-solid fa-download"></i></div>
+                        <div class="how-to-summarize-text-content">
+                            <h4>Download the file:</h4>
+                            <p>Click on the "Download" button and get the summary in .docx format</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="how-to-summarize-text-icon"><i class="fa-solid fa-copy"></i></div>
+                        <div class="how-to-summarize-text-content">
+                            <h4>Copy the summarized text:</h4>
+                            <p>You can also copy the summarized text to the clipboard and paste it anywhere you want.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="how-to-summarize-text-icon"><i class="fa-solid fa-trash-can"></i></div>
+                        <div class="how-to-summarize-text-content">
+                            <h4>Clear text:</h4>
+                            <p>After downloading or copying the summary, click on the "Clear" button to start a new
+                                session and generate another summary.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- Creative card -------------------->
+
+    <div class="creative-card">
+        <div class="container">
+            <h2 class="section-title">Lorem ipsum dolor sit.</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="creative-card-box">
+                        <div class="creative-card-box-img">
+                            <img src="assets/images/card-img.jpg" alt="">
+                        </div>
+                        <div class="creative-card-box-content">
+                            <h2>Top western road trips</h2>
+                            <p> I'm a thing. But, like most politicians, he promised more than he could deliver. You
+                                won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then
+                                we'll go with that data file! Hey, you add a one and two zeros to that or we walk!
+                                You're going to do his laundry? I've got to find a way to escape. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="creative-card-box">
+                        <div class="creative-card-box-img">
+                            <img src="assets/images/card-img.jpg" alt="">
+                        </div>
+                        <div class="creative-card-box-content">
+                            <h2>Top western road trips</h2>
+                            <p> I'm a thing. But, like most politicians, he promised more than he could deliver. You
+                                won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then
+                                we'll go with that data file! Hey, you add a one and two zeros to that or we walk!
+                                You're going to do his laundry? I've got to find a way to escape. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="creative-card-box">
+                        <div class="creative-card-box-img">
+                            <img src="assets/images/card-img.jpg" alt="">
+                        </div>
+                        <div class="creative-card-box-content">
+                            <h2>Top western road trips</h2>
+                            <p> I'm a thing. But, like most politicians, he promised more than he could deliver. You
+                                won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then
+                                we'll go with that data file! Hey, you add a one and two zeros to that or we walk!
+                                You're going to do his laundry? I've got to find a way to escape. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="creative-card-box">
+                        <div class="creative-card-box-img">
+                            <img src="assets/images/card-img.jpg" alt="">
+                        </div>
+                        <div class="creative-card-box-content">
+                            <h2>Top western road trips</h2>
+                            <p> I'm a thing. But, like most politicians, he promised more than he could deliver. You
+                                won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then
+                                we'll go with that data file! Hey, you add a one and two zeros to that or we walk!
+                                You're going to do his laundry? I've got to find a way to escape. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="creative-card-box">
+                        <div class="creative-card-box-img">
+                            <img src="assets/images/card-img.jpg" alt="">
+                        </div>
+                        <div class="creative-card-box-content">
+                            <h2>Top western road trips</h2>
+                            <p> I'm a thing. But, like most politicians, he promised more than he could deliver. You
+                                won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then
+                                we'll go with that data file! Hey, you add a one and two zeros to that or we walk!
+                                You're going to do his laundry? I've got to find a way to escape. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="creative-card-box">
+                        <div class="creative-card-box-img">
+                            <img src="assets/images/card-img.jpg" alt="">
+                        </div>
+                        <div class="creative-card-box-content">
+                            <h2>Top western road trips</h2>
+                            <p> I'm a thing. But, like most politicians, he promised more than he could deliver. You
+                                won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then
+                                we'll go with that data file! Hey, you add a one and two zeros to that or we walk!
+                                You're going to do his laundry? I've got to find a way to escape. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="creative-card-box">
+                        <div class="creative-card-box-img">
+                            <img src="assets/images/card-img.jpg" alt="">
+                        </div>
+                        <div class="creative-card-box-content">
+                            <h2>Top western road trips</h2>
+                            <p> I'm a thing. But, like most politicians, he promised more than he could deliver. You
+                                won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then
+                                we'll go with that data file! Hey, you add a one and two zeros to that or we walk!
+                                You're going to do his laundry? I've got to find a way to escape. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="creative-card-box">
+                        <div class="creative-card-box-img">
+                            <img src="assets/images/card-img.jpg" alt="">
+                        </div>
+                        <div class="creative-card-box-content">
+                            <h2>Top western road trips</h2>
+                            <p> I'm a thing. But, like most politicians, he promised more than he could deliver. You
+                                won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then
+                                we'll go with that data file! Hey, you add a one and two zeros to that or we walk!
+                                You're going to do his laundry? I've got to find a way to escape. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------ Footer ------------------------>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4 col-md-6">
+                    <a href="" class="footer-logo">
+                        <img src="assets/images/summary-logo.png" alt="">
+                    </a>
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatibus quae
+                        qui architecto esse quidem in est laudantium autem animi?</p>
+                </div>
+                <div class="col-lg-3 mb-4 col-md-6">
+                    <h4>Important Links</h4>
+                    <ul class="important-links">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Summarize</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4 col-md-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatibus quae qui
+                        architecto esse quidem in est</p>
+                    <form class="footer-subscribe-now">
+                        <input type="email" placeholder="Subscribe Now">
+                        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="col-lg-3 mb-4 col-md-6">
+                    <h4>Follow Us</h4>
+                    <ul class="follow-us">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">
+                        <p>©2023 — BgoByte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
